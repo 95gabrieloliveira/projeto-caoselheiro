@@ -9,7 +9,14 @@ https://app.econverse.com.br/teste-front-end/junior/caoselheiro/lista-produtos/p
 
 let url = `https://app.econverse.com.br/teste-front-end/junior/caoselheiro/lista-produtos/produtos.json`;
 
-fetch(url)
+fetch(url,
+    {   
+        method: 'GET',            
+        mode:"no-cors",
+        headers: {  
+            "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"  
+        }
+    })
     .then(resposta => resposta.json())
     .then(dados => {
         console.log(dados)
