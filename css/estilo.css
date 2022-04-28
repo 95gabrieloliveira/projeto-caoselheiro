@@ -9,13 +9,15 @@
 
 body {
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'popins'
     font-style: normal;
+    
 }
 
 
 
 .menu{
+    background-color: red;
     position: absolute;
     width: 1280px;
     height: 40px;
@@ -35,11 +37,21 @@ border-radius: 0px 0px 10px 10px;
     input, button {padding: 10px;}
     input {width: 50%;}
     /*  */
-
+/
 .menu ul {
     list-style: none;
     padding: 0;
+    display: inline-block;
 }
+
+
+
+ .menu li {
+    display: inline-block;
+    text-transform: none
+
+ }
+
 
 .menu ul li  {
     position:absolute;
@@ -48,7 +60,7 @@ border-radius: 0px 0px 10px 10px;
     background-color:black;
     display:none;
     }
-
+ */
 .col-100{
         position: absolute;
     width: 1280px;
@@ -84,4 +96,4 @@ border-radius: 0px 0px 10px 10px;
         top: 30%;
         right: 5%;
         
-    }
+    } */

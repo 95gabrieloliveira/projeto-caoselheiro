@@ -7,7 +7,7 @@ https://app.econverse.com.br/teste-front-end/junior/caoselheiro/lista-produtos/p
 
 /* fetch -> ler dados de uma API em JSON */
 
-let url = `https://app.econverse.com.br/teste-front-end/junior/caoselheiro/lista-produtos/produtos.json`;
+let url = `produtos.json`;
 
 fetch(url,
     {   
