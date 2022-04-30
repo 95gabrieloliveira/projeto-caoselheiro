@@ -113,7 +113,8 @@ background: #FFFFFF;
     position:absolute;
     top:25px;
     left:0;
-   
+    display:none;
+    
     }
 
 
@@ -159,7 +160,15 @@ background: #FFFFFF;
     }  */
 
 
-   
+   .imagens-categoria {
+        display: inline-block;
+        padding: 40px;
+        display: flex;
+        
+        
+        
+    }
+
     #conteudo {
         display: flex;
     align-items: center;
