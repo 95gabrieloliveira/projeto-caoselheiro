@@ -11,12 +11,15 @@
 </head>
 <body>
     <header>
-        <img src="imagens/logo.png" alt="Logo">
+       
+        <div class="logo">
+        <img  src="imagens/logo.png" alt="">
+    </div>
         <!-- Mecanismo de Busca -->
         <form action=" " method="post">
-            <label for="busca">Buscar</label>
-            <input type="search" id="busca" name="q">
-            <button type="submit">OK</button>
+          
+            <input type="text" id="search" name="search" placeholder="O que você está buscando ?" required>
+            <button type="submit"><i><img src="imagens/Vetores/Vector lupa 2.jpg" alt=""></i></button>
           </form>
 
     <nav> 
@@ -28,28 +31,65 @@
             <li> Passear</li>
             <li>Casa e Conforto</li>
             <li>Educação</li>
-            <li>Ofertas</li>
+            <li class="lista-especial">Ofertas</li>
             <li>Coleção de Outono</li>
        
         </ul>
     </nav>
+    <section class="icon-menu">
+        <img src="imagens/Vetores/icon-menu-1.svg" alt="">
+        <img src="imagens/Vetores/icon-menu-2.svg" alt="">
+        <img src="imagens/Vetores/icon-menu-3.svg" alt="">
+        <img src="imagens/Vetores/icon-menu-4.svg" alt="">
+    </section>
     </header>
 
     <div class="col-100">
         <!-- Imagem principal -->
-       <!--  <div class="slider-principal">
+        <div class="slider-principal">
             <div><img src="imagens/imagem-central.png" alt=""></div>
             <div><img src="imagens/imagem-central.png" alt=""></div>
             <div><img src="imagens/imagem-central.png" alt=""></div>
-          </div> -->
+          </div>  
+
+<section class="categoria">
+
+   
+    <h2>Categorias</h2>
+          <div class="imagens-categorias">
+            <img src="imagens/dog1.png" alt=""> 
+            <img src="imagens/dog2.png" alt=""> 
+            <img src="imagens/dog3.png" alt=""> 
+            <img src="imagens/dog4.png" alt=""> 
+         </div>
+    
+</section>
+          
+<section class="meu-cachorro">
+    <h2>Meu Cachorro</h2>
+<!-- Não foi possível acessar os dados da Vitrine pelo link fornecido, devido a isso baixei
+ em meu computador e utilizei o banco de imagens Lorem Picsum para fornecer uma imagem aleátoria-->
+    <div id="conteudo"></div>
+
+</section>
+
+    
 
 
-          <footer>
+
+<footer>
               <p>Nos siga nas nossas redes sociais</p>
-          </footer>
-          <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</footer>
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vitrine-jquery.js"></script>
 </body>
 </html>
