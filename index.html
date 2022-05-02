@@ -11,12 +11,12 @@
 </head>
 <body>
     <header>
-       
+       <!-- Cabeçalho -->
         <div class="logo">
         <img  src="imagens/logo.png" alt="">
     </div>
         <!-- Mecanismo de Busca -->
-        <form action=" " method="post">
+        <form class="pesquisar" action=" " method="post">
           
             <input type="text" id="search" name="search" placeholder="O que você está buscando ?" required>
             <button type="submit"><i><img src="imagens/Vetores/Vector lupa 2.jpg" alt=""></i></button>
@@ -37,6 +37,7 @@
         </ul>
     </nav>
     <section class="icon-menu">
+        <!-- Icones da barra lateral ao pesquisar -->
         <img src="imagens/Vetores/icon-menu-1.svg" alt="">
         <img src="imagens/Vetores/icon-menu-2.svg" alt="">
         <img src="imagens/Vetores/icon-menu-3.svg" alt="">
@@ -54,7 +55,7 @@
 
 <section class="categoria">
 
-   
+   <!-- Categorias -->
     <h2>Categorias</h2>
           <div class="imagens-categorias">
             <img src="imagens/dog1.png" alt=""> 
@@ -64,7 +65,7 @@
          </div>
     
 </section>
-          
+          <!-- Seção meu cachorro integrada a Vitrine criada via JSon -->
 <section class="meu-cachorro">
     <h2>Meu Cachorro</h2>
 <!-- Não foi possível acessar os dados da Vitrine pelo link fornecido, devido a isso baixei
@@ -73,16 +74,137 @@
 
 </section>
 
+    <!-- Principais Marcas -->
+<section class="principais-marcas">
+    <h2>Principais Marcas</h2>
+    <img src="imagens/marca1.png" alt="">
+    <img src="imagens/marca2.png" alt="">
+    <img src="imagens/marca3.png" alt="">
+    <img src="imagens/marca1.png" alt="">
+    <img src="imagens/marca2.png" alt="">
+    <img src="imagens/marca3.png" alt="">
+
+</section>
+
+
+<!-- Parceiros e Assinatura -->
+<section class="parceiro">
+<div class="parceiros-assinatura">
+    <img id="image-parceiro" src="imagens/parceiro.png">
+    <label id="texto-parceiro">Parceiros</label>
+  </div>
+<!-- Nesta parte tive um pouco de dificuldade para alinhar as duas imagens e inserir o texto -->
+<div class="parceiros-assinatura">
+    <img id="imagem-assinatura" src="imagens/assinatura.png">
+    <label id="texto-assinatura">Assinatura Cãoselheiro </label>
+  </div>
+</section>
+
+<!-- Conteudos do Blog--> 
+
+<section> 
+    <h2>Confira nosso blog</h2>
+    <div class="blog">
+       
+        <div><h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="imagens/blog1.png" alt="">
+        </div>
+        <div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="imagens/blog2.png" alt="">
+        </div>
+        <div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="imagens/blog3.png" alt="">
+        </div>
+        <div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="imagens/blog4.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Imagens do Instagram -->
+<section class="instagram">
+    <h2>Instagram</h2>
+    <img src="imagens/instagram1.png" alt="">
+    <img src="imagens/instagram2.png" alt="">
+    <img src="imagens/instagram3.png" alt="">
+    <img src="imagens/instagram1.png" alt="">
+    <img src="imagens/instagram2.png" alt="">
+    <img src="imagens/instagram3.png" alt="">
+</section>
+
+<div class="formcao"> 
     
+    <img src="imagens/formcao.png" alt="">
+    <form class="formulario" action="" method="post">
+
+       <!-- Nesta área tive um pouco de dificuldade de inserir a imagem acima do form -->
+        <p>Se inscreva para receber novidades e promoções</p>
+        <div>  
+            <label for="nome"> Nome:</label> 
+            <input type="text" name="nome" id="nome"></imput>
+        </div>
+
+        <div>
+            <label for="email"> E-mail:</label> 
+            <input type="email" name="email" id="email"></imput>
+            
+        </div>
+
+        <button type="submit">Enviar Dados</button>
+        </form>
+</div>
 
 
+<footer>    
+    <div class="rede-social">
+         <h4>Nos siga nas nossas redes sociais</h4>
+         <p>Sobre O Cãoselheiro</p>
+            Seja muito bem-vindo! O Cãoselheiro - a loja - é a loja online de uma empresa que nasceu para contribuir para uma melhor qualidade de vida dos cães e seus familiares humanos. Seus sócios são profissionais de educação canina que trabalham seguindo metodologias positivas de treinamento animal, encorajando e recompensando os acertos de nossos amigos em seus processos de adestramento. Aqui você encontrará apenas itens de qualidade comprovada e utilizados pessoalmente por seus idealizadores. Fique à vontade!
+</div>
+    <div class="Assinatura">
 
-<footer>
-              <p>Nos siga nas nossas redes sociais</p>
+    <h4>Assinatura</h4> 
+    <h4>Parceiros</h4> 
+    </div>              
+
+<div class="Institucional">
+<h4>Institucional</h4>
+<p>
+Quem somos
+Política de privacidade
+Política comercial
+Política de devolução
+Regras de frete
+</p>
+</div>
+
+<div class="Atendimento">
+<h4>Atendimento</h4>
+<p>
+Fale conosco
+
+(11) 97212-1314
+
+ocaoselheiro@ocaoselheiro.com.br
+</p>
+</div>
+
+<div>
+  <h4>  Formas de pagamento </h4>
+</div>
+
+<div>
+  <h4> Segurança </h4> 
+</div>
 </footer>
     
 
-
+<!-- Tive um pouco de dificuldade de ajustar fielmente ao que 
+    estava documentado no figma, mas desde já agradeço pela oportunidade 
+   gostei muito do desafio e este projeto foi muito proveitoso para mim-->
 
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
